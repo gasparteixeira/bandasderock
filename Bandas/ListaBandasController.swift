@@ -66,18 +66,19 @@ class ListaBandasController: CoreDataTableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destination = segue.destination as? ShowBandaController {
-            destination.managedObjectContext = managedObjectContext
-            if segue.identifier == "showDetail" {
+        if segue.identifier == "showDetail" {
+            if let destination = segue.destination as? ShowBandaController {
+                destination.managedObjectContext = managedObjectContext
                 if let indexPath = tableView.indexPathForSelectedRow, let banda = fetchedResultsController?.object(at: indexPath) as? Banda {
                     destination.banda = banda
                 }
-                
-            } else {
-                print("\(segue.identifier)")
+            
+            }
+        } else {
+            if let destination = segue.destination as? DetalheBandaController {
+                destination.managedObjectContext = managedObjectContext
                 destination.banda = nil
             }
-            
         }
         
     }
