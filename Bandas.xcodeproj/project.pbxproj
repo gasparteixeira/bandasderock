@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		EB9BCE871DA32F0500FB786E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BCE861DA32F0500FB786E /* AppDelegate.swift */; };
-		EB9BCE891DA32F0500FB786E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BCE881DA32F0500FB786E /* ViewController.swift */; };
 		EB9BCE8C1DA32F0500FB786E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9BCE8A1DA32F0500FB786E /* Main.storyboard */; };
 		EB9BCE8F1DA32F0500FB786E /* Bandas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB9BCE8D1DA32F0500FB786E /* Bandas.xcdatamodeld */; };
 		EB9BCE911DA32F0500FB786E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9BCE901DA32F0500FB786E /* Assets.xcassets */; };
 		EB9BCE941DA32F0500FB786E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9BCE921DA32F0500FB786E /* LaunchScreen.storyboard */; };
+		EB9BCE9F1DA3346B00FB786E /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BCE9E1DA3346B00FB786E /* CoreDataTableViewController.swift */; };
+		EB9BCEA11DA3350500FB786E /* ListaBandasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BCEA01DA3350500FB786E /* ListaBandasController.swift */; };
+		EB9BCEA51DA335FC00FB786E /* Banda+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BCEA31DA335FC00FB786E /* Banda+CoreDataClass.swift */; };
+		EB9BCEA61DA335FC00FB786E /* Banda+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BCEA41DA335FC00FB786E /* Banda+CoreDataProperties.swift */; };
+		EB9BCEA81DA337CC00FB786E /* DetalheBandaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BCEA71DA337CC00FB786E /* DetalheBandaController.swift */; };
+		EBE811491DA5D93D00FCCFCE /* ShowBandaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE811481DA5D93D00FCCFCE /* ShowBandaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB9BCE831DA32F0500FB786E /* Bandas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bandas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9BCE861DA32F0500FB786E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB9BCE881DA32F0500FB786E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB9BCE8B1DA32F0500FB786E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB9BCE8E1DA32F0500FB786E /* Bandas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bandas.xcdatamodel; sourceTree = "<group>"; };
 		EB9BCE901DA32F0500FB786E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB9BCE931DA32F0500FB786E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB9BCE951DA32F0500FB786E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9BCE9E1DA3346B00FB786E /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
+		EB9BCEA01DA3350500FB786E /* ListaBandasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaBandasController.swift; sourceTree = "<group>"; };
+		EB9BCEA31DA335FC00FB786E /* Banda+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Banda+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EB9BCEA41DA335FC00FB786E /* Banda+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Banda+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EB9BCEA71DA337CC00FB786E /* DetalheBandaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalheBandaController.swift; sourceTree = "<group>"; };
+		EBE811481DA5D93D00FCCFCE /* ShowBandaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBandaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		EB9BCE851DA32F0500FB786E /* Bandas */ = {
 			isa = PBXGroup;
 			children = (
-				EB9BCE861DA32F0500FB786E /* AppDelegate.swift */,
-				EB9BCE881DA32F0500FB786E /* ViewController.swift */,
-				EB9BCE8A1DA32F0500FB786E /* Main.storyboard */,
-				EB9BCE901DA32F0500FB786E /* Assets.xcassets */,
-				EB9BCE921DA32F0500FB786E /* LaunchScreen.storyboard */,
-				EB9BCE951DA32F0500FB786E /* Info.plist */,
-				EB9BCE8D1DA32F0500FB786E /* Bandas.xcdatamodeld */,
+				EB9BCE9B1DA32F2200FB786E /* Suport Files */,
+				EB9BCE9D1DA32FAC00FB786E /* Storyboard */,
+				EB9BCE9C1DA32F5F00FB786E /* Core Data */,
+				EB9BCEA21DA3350D00FB786E /* Bandas */,
 			);
 			path = Bandas;
+			sourceTree = "<group>";
+		};
+		EB9BCE9B1DA32F2200FB786E /* Suport Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9BCE921DA32F0500FB786E /* LaunchScreen.storyboard */,
+				EB9BCE861DA32F0500FB786E /* AppDelegate.swift */,
+				EB9BCE901DA32F0500FB786E /* Assets.xcassets */,
+				EB9BCE951DA32F0500FB786E /* Info.plist */,
+			);
+			name = "Suport Files";
+			sourceTree = "<group>";
+		};
+		EB9BCE9C1DA32F5F00FB786E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				EB9BCEA31DA335FC00FB786E /* Banda+CoreDataClass.swift */,
+				EB9BCEA41DA335FC00FB786E /* Banda+CoreDataProperties.swift */,
+				EB9BCE9E1DA3346B00FB786E /* CoreDataTableViewController.swift */,
+				EB9BCE8D1DA32F0500FB786E /* Bandas.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		EB9BCE9D1DA32FAC00FB786E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EB9BCE8A1DA32F0500FB786E /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		EB9BCEA21DA3350D00FB786E /* Bandas */ = {
+			isa = PBXGroup;
+			children = (
+				EBE811481DA5D93D00FCCFCE /* ShowBandaController.swift */,
+				EB9BCEA71DA337CC00FB786E /* DetalheBandaController.swift */,
+				EB9BCEA01DA3350500FB786E /* ListaBandasController.swift */,
+			);
+			name = Bandas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9BCEA51DA335FC00FB786E /* Banda+CoreDataClass.swift in Sources */,
+				EB9BCEA11DA3350500FB786E /* ListaBandasController.swift in Sources */,
+				EB9BCEA61DA335FC00FB786E /* Banda+CoreDataProperties.swift in Sources */,
 				EB9BCE8F1DA32F0500FB786E /* Bandas.xcdatamodeld in Sources */,
-				EB9BCE891DA32F0500FB786E /* ViewController.swift in Sources */,
+				EB9BCEA81DA337CC00FB786E /* DetalheBandaController.swift in Sources */,
 				EB9BCE871DA32F0500FB786E /* AppDelegate.swift in Sources */,
+				EB9BCE9F1DA3346B00FB786E /* CoreDataTableViewController.swift in Sources */,
+				EBE811491DA5D93D00FCCFCE /* ShowBandaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +317,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66TFW9PS7V;
 				INFOPLIST_FILE = Bandas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.gt.Bandas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +331,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66TFW9PS7V;
 				INFOPLIST_FILE = Bandas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.gt.Bandas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +358,7 @@
 				EB9BCE9A1DA32F0500FB786E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
